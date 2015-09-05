@@ -1,5 +1,5 @@
 var WeatherEntry = Backbone.Model.extend({
-
+  // empty strings are for defaults if not given by the user
   defaults: {
     zipcode: '',
     city: '',
